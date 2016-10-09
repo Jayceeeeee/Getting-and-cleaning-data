@@ -1,4 +1,4 @@
-## the pro
+## coodbook
 1、read inertial test data
      only one column
 2、read inertial train data
