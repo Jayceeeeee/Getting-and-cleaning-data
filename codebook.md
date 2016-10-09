@@ -1,14 +1,5 @@
-## coodbook
-1、read inertial test data
-     only one column
-2、read inertial train data
-     only one column
-3、read test data
-4、read train data
-5、read labels and give each row names
-6、add a column named rank, to pertain the order
-     merge ytest and activitylabels, thus number could link to the activity names
-     use arrange function, thus the data is in right order
-7、add names in data frame use the data frame : feature
-     combine xtest data and test data
-8、add subject id
+## tidydata
+tidydata.txt has 500 columns, first 477 columns represent the test/train data come from X_test.txt, Y_test.txt, X_train.txt, Y_train.txt; and "label" means the number of the activity, "labelname" means the name of the activity; "rank" is the raw rank of data, "subjectid" represent the id of subject; next 18 columns of data come from inertail signals, it has 9 meansure methods and I calucate it's mean and standrad deviation, this has 18 columns; final column named "class", this's the mark of test data or train data
+
+## sub tidy data
+it shows the average of each variable for each activity and each subject.
